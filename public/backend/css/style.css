@@ -1,0 +1,65 @@
+.side-nav-menu .active {
+    background-color: rgba(63,135,245,0.15);
+}
+.side-nav-menu  .active a {
+    color: #3f87f5;
+}
+
+.side-nav-menu  .active::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    transition: opacity 0.15s cubic-bezier(0.215, 0.61, 0.355, 1);
+    opacity: 1;
+    border-right: 2px solid;
+    border-color: #3f87f5;
+}
+.select_discount{
+    text-transform:capitalize;
+}
+
+.card_image{
+    width: 100%;
+    height: 140px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.checkout_table tbody tr td, .checkout_table tbody tr th{
+    padding: 7px !important;
+}
+.cart_delete_icon{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.show-cart li {
+    display: flex;
+}
+
+.cart_count{
+    font-size: 17px;
+    word-spacing: 10px;
+    float: right;
+}
+.cart_count i{
+    cursor: pointer;
+}
+.card_show_list{
+    border: 1px solid #d7d7d7;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.payment_type_img img {
+    border-radius: 10px;
+    border: 2px solid #c1c1c1;
+    cursor: pointer;
+}
+.payment_type_img img:hover{
+    box-shadow: 2px 2px 2px gay;
+
+}
