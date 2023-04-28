@@ -83,7 +83,7 @@
                     </li>
                 </ul>
                 <div class="text-center">
-                    <button class="btn btn-primary">ရယူရန်</button>
+                    <a href="{{route('frontend.register')}}" class="btn btn-primary">ရယူရန်</a>
                 </div>
             </div>
         </div>
@@ -174,7 +174,7 @@
                     </li>
                 </ul>
                 <div class="text-center">
-                    <button class="btn btn-primary">ရယူရန်</button>
+                    <a href="{{route('frontend.register')}}" class="btn btn-primary">ရယူရန်</a>
                 </div>
             </div>
         </div>
@@ -265,7 +265,7 @@
                     </li>
                 </ul>
                 <div class="text-center">
-                    <button class="btn btn-primary">ရယူရန်</button>
+                    <a href="{{route('frontend.register')}}" class="btn btn-primary">ရယူရန်</a>
                 </div>
             </div>
         </div>
@@ -356,7 +356,7 @@
                     </li>
                 </ul>
                 <div class="text-center">
-                    <button class="btn btn-primary">ရယူရန်</button>
+                    <a href="{{route('frontend.register')}}" class="btn btn-primary">ရယူရန်</a>
                 </div>
             </div>
         </div>

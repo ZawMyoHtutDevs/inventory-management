@@ -83,8 +83,8 @@
                                 <div class="form-group">
                                     <div class="d-flex align-items-center justify-content-between p-t-15">
                                         <div class="checkbox">
-                                            <input id="checkbox" type="checkbox" >
-                                            <label for="checkbox"><span>သဘောတူသည် <a href="">စည်းကမ်းနှင့်သတ်မှတ်ချက်များ</a></span></label>
+                                            <input id="checkbox" name="terms" type="checkbox" required>
+                                            <label for="checkbox"><span>သဘောတူသည် <a href="{{route('frontend.terms')}}">စည်းကမ်းနှင့်သတ်မှတ်ချက်များ</a></span></label>
                                         </div>
                                         <button class="btn btn-primary">အတည်ပြုသည်</button>
                                     </div>

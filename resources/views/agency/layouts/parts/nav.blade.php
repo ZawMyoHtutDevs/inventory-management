@@ -48,7 +48,7 @@
                         <a href="{{route('agency.products.index')}}">All Product</a>
                     </li>                
                     <li class=" {{ Route::is('agency.products.create') ? 'active' : '' }}">
-                        <a href="{{route('agency.products.create', Auth::user()->id)}}">Add New</a>
+                        <a href="{{route('agency.products.create')}}">Add New</a>
                     </li>
                                        
                 </ul>

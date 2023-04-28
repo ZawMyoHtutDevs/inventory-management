@@ -25,12 +25,5 @@
 @endsection
 
 @section('script')
-@include('frontend.layouts.promo')
-<script>
-    function openPromo(){
-        $('#promo').modal('show')
-    }
-setTimeout(openPromo, 5000);
-    
-</script>
+
 @endsection

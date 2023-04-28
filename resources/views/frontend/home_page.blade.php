@@ -14,7 +14,7 @@
     <div class="col-md-6 header-41">
         <h1>သင့်ကုန်ပစ္စည်းများကို <span>စနစ်တကျ</span> ထိမ်းသိမ်းလိုက်ပါ။</h1>
         <h4>ကုန်ပစ္စည်းတွေ များပြားလို့ ထိမ်းသိမ်းရခက်ခဲနေရင် ကျနော်တို့ 41 Inventory ဖြင့် စနစ်တကျ သိမ်းစည်းလိုက်ပါ။</h4>
-        <button class="btn btn-primary mt-4">အကောင့်ဖွင့်ရန်</button>
+        <a href="{{route('frontend.register')}}" class="btn btn-primary mt-4">အကောင့်ဖွင့်ရန်</a>
     </div>
 
     <div class="col-md-6">

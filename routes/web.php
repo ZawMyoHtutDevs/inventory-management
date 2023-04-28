@@ -152,6 +152,7 @@ Route::post('/store', [FrontendController::class, 'store'])->name('frontend.stor
 Route::get('/contact', [FrontendController::class, 'contact'])->name('frontend.contact');
 Route::get('/pricing', [FrontendController::class, 'pricing'])->name('frontend.pricing');
 Route::get('/policy', [FrontendController::class, 'policy'])->name('frontend.policy');
+Route::get('/terms', [FrontendController::class, 'terms'])->name('frontend.terms');
 Route::get('/about', [FrontendController::class, 'about'])->name('frontend.about');
 
 Auth::routes(['register' => false]);

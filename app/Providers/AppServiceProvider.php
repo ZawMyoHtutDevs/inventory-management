@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Carbon;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\Gate;
@@ -32,7 +33,8 @@ class AppServiceProvider extends ServiceProvider
 
         // Is Active Plan
         Gate::define('is_active', function() {
-            return auth()->user()->agency->status === 'active';
+            return auth()->user()->agency->end_date > Carbon::now();
+            // return auth()->user()->agency->status === 'active';
         });
 
         

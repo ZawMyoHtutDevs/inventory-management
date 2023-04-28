@@ -28,6 +28,14 @@
                                         <img class="img-fluid" alt="" src="{{asset('backend/images/logo/logo-fold.png')}}">
                                         <h2 class="m-b-0">Sign In</h2>
                                     </div>
+
+                                    <div class="alert alert-warning" role="alert">
+                                        <strong>Seller Account</strong><br>
+                                        <p>Phone = 09423242397</p>
+                                        <p>Pass = password</p>
+
+                                    </div>
+
                                     <form method="POST" action="{{ route('login') }}">
                                         @csrf
                                         <div class="form-group">

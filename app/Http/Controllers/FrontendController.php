@@ -19,6 +19,9 @@ class FrontendController extends Controller
     public function pricing(){
         return view('frontend.pricing_page');
     }
+    public function terms(){
+        return view('frontend.terms_page');
+    }
     public function policy(){
         return view('frontend.policy_page');
     }
@@ -64,7 +67,6 @@ class FrontendController extends Controller
         $agency->asset = $asset_name;
         $agency->status = 'pending';
         $agency->currency = 'Ks';
-        $agency->phone = $request->phone;
         $agency->save();
 
         $user = new User();

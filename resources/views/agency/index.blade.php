@@ -48,7 +48,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="media align-items-center">
-                    <i class="font-size-40 text-primary anticon anticon-dollar"></i>
+                    <i class="font-size-40 text-primary anticon anticon-appstore"></i>
                     <div class="m-l-15">
                         <p class="m-b-0 text-muted">Products</p>
                         <h4 class="m-b-0 ">{{ $products->count() }}</h4>
@@ -62,7 +62,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="media align-items-center">
-                    <i class="font-size-40 text-primary anticon anticon-dollar"></i>
+                    <i class="font-size-40 text-primary anticon anticon-shopping-cart"></i>
                     <div class="m-l-15">
                         <p class="m-b-0 text-muted">Orders</p>
                         <h4 class="m-b-0 ">{{ $sales->count() }}</h4>
@@ -76,7 +76,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="media align-items-center">
-                    <i class="font-size-40 text-primary anticon anticon-hourglass"></i>
+                    <i class="font-size-40 text-primary anticon anticon-idcard"></i>
                     <div class="m-l-15">
                         <p class="m-b-0 text-muted">Customers</p>
                         <h4 class="m-b-0 ">{{ $customers->count() }}</h4>
@@ -89,7 +89,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="media align-items-center">
-                    <i class="font-size-40 text-primary anticon anticon-exclamation-circle"></i>
+                    <i class="font-size-40 text-primary anticon anticon-solution"></i>
                     <div class="m-l-15">
                         <p class="m-b-0 text-muted">Suppliers</p>
                         <h4 class="m-b-0 ">{{ $suppliers->count() }}</h4>
@@ -103,19 +103,40 @@
 
 <div class="row">
     <div class="col-sm-6 col-md-3">
-        <div class="card">
-            <div class="card-body">
-                <div class="align-items-center">
-                    <i class="font-size-40 text-primary anticon anticon-dollar"></i>
-                </div>
-                
-                <div class="media align-items-center">
+        <a href="{{route('agency.products.create')}}">
+            <div class="card">
+                <div class="card-body">
+                    <div class="align-items-center">
+                        <i class="font-size-40 text-primary anticon anticon-plus-square"></i>
+                    </div>
                     
-                    <p class="m-b-0 text-center">ADD Products</p>
+                    <div class="media align-items-center">
+                        
+                        <p class="m-b-0 text-center">ADD Product</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     </div>
+
+    <div class="col-sm-6 col-md-3">
+        <a href="{{route('agency.categories.index')}}">
+            <div class="card">
+                <div class="card-body">
+                    <div class="align-items-center">
+                        <i class="font-size-40 text-primary anticon anticon-plus-square"></i>
+                    </div>
+                    
+                    <div class="media align-items-center">
+                        
+                        <p class="m-b-0 text-center">ADD Category</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+    </div>
+
 
 </div>
 

@@ -34,7 +34,7 @@
                       <a class="nav-link text-body h5 " href="{{route('frontend.contact')}}">ဆက်သွယ်ရန်</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-body h5 " href="#">စည်းကမ်းနှင့်သတ်မှတ်ချက်များ</a>
+                      <a class="nav-link text-body h5 " href="{{route('frontend.terms')}}">စည်းကမ်းနှင့်သတ်မှတ်ချက်များ</a>
                     </li>
                     
                   </ul>
@@ -50,8 +50,8 @@
     <div class="footer-content">
         <p class="m-b-0">Copyright © 2023. All rights reserved.</p>
         <span>
-            <a href="" class="text-gray m-r-15">Term &amp; Conditions</a>
-            <a href="" class="text-gray">Privacy &amp; Policy</a>
+            <a href="{{route('frontend.terms')}}" class="text-gray m-r-15">Term &amp; Conditions</a>
+            <a href="{{route('frontend.policy')}}" class="text-gray">Privacy &amp; Policy</a>
         </span>
     </div>
 </footer>
